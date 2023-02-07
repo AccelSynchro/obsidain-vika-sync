@@ -105,7 +105,7 @@ class SettingTab extends PluginSettingTab {
 		for(let index =0; index < datasheet.length; index++){
 			this.settingsEl.push(new Setting(containerEl)
 					.setName(this.plugin.settings.datasheetList[index].name)
-					.addText(text => text
+					.addTextArea(text => text
 						.setPlaceholder("")
 						.setValue(JSON.stringify(this.plugin.settings.datasheetList[index].updateField))
 						.onChange(async (value) => {
@@ -120,7 +120,7 @@ class SettingTab extends PluginSettingTab {
 						}
 					)
 				)
-				.addText(text => text
+				.addTextArea(text => text
 					.setPlaceholder("")
 					.setValue(JSON.stringify(this.plugin.settings.datasheetList[index].recoverField))
 					.onChange(async (value) => {

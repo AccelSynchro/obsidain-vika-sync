@@ -1,7 +1,7 @@
 {
 	"id": "vika-sync",
 	"name": "Vika Sync",
-	"version": "0.2.12",
+	"version": "0.3.1",
 	"minAppVersion": "0.15.0",
 	"description": "Sync your note to vika",
 	"author": "romantic-black",
